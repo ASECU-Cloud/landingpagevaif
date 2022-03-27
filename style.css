@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script&family=Lora&family=Maven+Pro:wght@400;500;700&display=swap');
+
+
+
+
+
+#logobujang{
+    background-color: #f4fdff;
+    border-radius: 100%;
+    padding: 8px;
+    margin: 8px;
+}
+#logo{
+    margin-left: 20px;
+}
+p{
+    margin: 0;
+}
+body{
+    
+    padding: 0;
+    margin: 0;
+}
+#navbar{
+    background: #182c3a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#navbar-items{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-right: 160px;    
+}
+#navbar-items a{
+    text-decoration: none;
+
+}
+.container{
+    padding: 0 5rem;
+}
+.content{
+    position: relative;
+    background-color: #4fc0b5;
+    height: 444px;
+}
+#navbar-items header{
+    font-family: "Bebas Neue";
+    font-size: xx-large;
+    padding-top: 4px;
+    color: white;
+}
+#navbar-items a{
+    font-family: "Bebas Neue";
+    font-size: larger;
+    padding-top: 5px;
+    color: white;
+}
+
+#wayang1{
+    width: 446px;
+    position: absolute;
+    top: -2px;
+    left: -147px;
+    transform: scaleX(-1);
+}
+.content-text{
+    color: white;
+    font-family: "Maven Pro";
+    font-weight: 700;
+    font-size: 5rem;
+    height: 300px;
+    padding-top: 120px;
+    padding-right: 50px;
+    padding-left: 350px;
+}
+.content-text p{
+    font-family: "Dancing Script";
+    font-size: 30px;
+}
+
+.button{
+    
+    background-color: #4991c4;
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-family: "Maven Pro";
+    font-weight: 700;
+    width: 115px;
+    height: 38px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 1px 4px 6px #3b759e;
+}
+.button:hover{
+    background-color: #6caddb;
+}
+.button:active{
+    background-color: #4991c4;
+}
+.custom-shape-divider-top-1648298338 {
+    position: relative;
+    width: 100%;
+    /* overflow: hidden; */
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1648298338 svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 1349px;
+    height: 92px;
+}
+
+.custom-shape-divider-top-1648298338 .shape-fill {
+    fill: #4FC0B5;
+}
+.content2{
+    color: white;
+    font-family: "Lora";
+    font-size: 20px;
+    padding-top: 90px;
+    background-color: #337677;
+    height: 444px;
+}
+.content2 h1{
+    text-align: center;
+}
+.content2-items{
+    display: flex;
+    gap: 90px;
+    flex-flow: row;
+    align-items: center;
+}
+#profile{
+    width: 205px;
+    height: 218px;
+    object-fit: cover;
+    object-position: 0px -74px;
+    /* border: 2px solid white; */
+    border-radius: 20px;
+    box-shadow: 1px 4px 8px 2px #275b5c;
+
+}
